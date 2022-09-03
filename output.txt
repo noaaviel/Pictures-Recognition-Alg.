@@ -1,0 +1,3 @@
+Picture #0: found object #1 at (100,200)
+Picture #2: found object #0 at (800,800)
+No Objects Found In Picture #1
