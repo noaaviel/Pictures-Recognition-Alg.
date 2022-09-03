@@ -23,11 +23,14 @@ A parallel and distributed pictures recognition algorithm using OpenMP and MPI
  Once all the slaves finish their jobs, each process including master frees memory allocated for pictures (only master) and for
  object list (everyone).
  
+ - [x] Please note that this program should run on Linux OS. To run on two computers you should have the project in the same exact directory on both ends, compile both projects using: mpicc finNoa.c CalcUtils.h -o exec -fopenmp -lm, from one computer only you execute the program using this line: 'mpiexec -np 3 -hostfile ips.txt ./exec' . Hostfile flag is used to signal which computers are used for the execution, you should retreive both computer's ip adresses and put them in the ips.txt file.
+ 
 - [x] Hopefully my implementation will meet your expectations, I worked very hard on it and I'm happy to say that I am satisfied
 with the result. First my implementation ran 4.5 minutes, then I improved it and it ran 1.5 minutes, improved it again and got
 to 22 seconds and finally I was able to get it to this point – less than 1 second on 2 computers.
 
 - [x] If you have any questions please feel free to email me and I will try my best to answer to your satisfaction  noaaviel175@gmail.com 
+
 
 
 
