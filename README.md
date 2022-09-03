@@ -27,5 +27,7 @@ A parallel and distributed pictures recognition algorithm using OpenMP and MPI
 with the result. First my implementation ran 4.5 minutes, then I improved it and it ran 1.5 minutes, improved it again and got
 to 22 seconds and finally I was able to get it to this point – less than 1 second on 2 computers.
 
+- [x] If you have any questions please feel free to email me and I will try my best to answer to your satisfaction  noaaviel175@gmail.com 
+
 
 
